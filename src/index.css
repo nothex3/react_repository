@@ -30,6 +30,11 @@
   }
 }
 
+.completed {
+  background-color: #0f129b;
+  color: green;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --text: #9ca3af;
