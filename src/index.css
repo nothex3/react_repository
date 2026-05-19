@@ -1,9 +1,11 @@
 :root {
-  --main-bg-color: #000;
+  --main-bg-color: #23272F;
   --text-color: #fff;
 
   --btn-text-color: #fff;
   --btn-bg-color: #383b3f;
+
+  --card-bg-color: #343a46;
 
 
   --sans: system-ui, "Segoe UI", Roboto, sans-serif;
@@ -47,6 +49,8 @@ body {
 
     --btn-text-color: #57C4DC;
     --btn-bg-color: #16444f;
+
+    --card-bg-color: #ebedf0;
   }
 }
 
@@ -57,5 +61,7 @@ body {
 
     --btn-text-color: #fff;
     --btn-bg-color: #383b3f;
+
+    --card-bg-color: #343a46;
   }
 }
