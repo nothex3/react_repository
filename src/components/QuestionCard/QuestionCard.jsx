@@ -9,7 +9,7 @@ export const QuestionCard = (props) => {
     <div className={cls.card}>
       <div className={cls.cardLabels}>
         <div>Level: {props.card.level}</div>
-        <div>{props.card.complited ? "Completed" : "Not Complited"}</div>
+        <div>{props.card.completed ? "Completed" : "Not Completed"}</div>
       </div>
 
       <h5 className={cls.cardTitle}>{props.card.question}</h5>

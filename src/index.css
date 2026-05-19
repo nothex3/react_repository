@@ -15,8 +15,6 @@
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
   color-scheme: light dark;
-  color: var(--text);
-  background: var(--bg);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -42,7 +40,7 @@ body {
   background-color: var(--main-bg-color);
 }
 
-@media (prefers-color-scheme: ligtht) {
+@media (prefers-color-scheme: light) {
   :root {
     --main-bg-color: #fff;
     --text-color: #000;
@@ -54,7 +52,7 @@ body {
   }
 }
 
-@media (prefers-color-scheme: black) {
+@media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #23272F;
     --text-color: #fff;
